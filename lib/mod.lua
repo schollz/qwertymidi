@@ -5,7 +5,7 @@ local state={
 }
 
 mod.hook.register("script_pre_init","qwertymidi mod setup",function()
-    params:add_group("QWERTYMIDI",1)
+  params:add_group("QWERTYMIDI",1)
 end)
 
 mod.hook.register("script_post_cleanup","qwertymidi mod cleanup",function()
